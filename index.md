@@ -7,7 +7,7 @@ As further discussion topics, we will solicit talks and feedback on benchmarking
 
 ## Location
 
-Los Angeles, California, USA.
+Online
 
 ## Program
 
@@ -24,7 +24,7 @@ Please register for the workshop through the CAV registration [page](http://i-ca
 
 ## Organization
 
-This workshop will be held between July 19–24, 2020, and colocated with the [32nd International Conference on Computer-Aided Verification (CAV)][CAV]. The workshop is chaired by developers of [SMACK] and [SeaHorn]:
+This workshop will be held on July 20, 2020, and coinciding with the [32nd International Conference on Computer-Aided Verification (CAV)][CAV]. The workshop is chaired by developers of [SMACK] and [SeaHorn]:
 
 * Michael Emmi, Amazon Web Services
 * Arie Gurfinkel, University of Waterloo
