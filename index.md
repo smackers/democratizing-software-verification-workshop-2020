@@ -19,7 +19,7 @@ TBD
 
 ## Registration
 
-Please register for the workshop through the CAV registration [page](http://i-cav.org/2020/registration).
+Please register for the workshop through the CAV registration [page](http://i-cav.org/2020/attending/).
 
 
 ## Organization
