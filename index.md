@@ -11,11 +11,42 @@ Online
 
 ## Program
 
-TBD
+### Hydra: A Framework For Distributed Program Verification (6:00am PDT)
 
-## Invited Speakers
+Program verification is a computationally intensive task. However, most
+state-of-the-art verifiers are unable to utilize readily available large
+computational resources. In this work, we design an algorithm for
+parallelizing SMT-based automated program verification. Our algorithm can
+split large verification tasks into smaller sub-tasks by utilizing
+information from the SMT solver and solve them in parallel on clusters of
+machines. We implement the proposed algorithm in a tool called HYDRA which
+is built on top of CORRAL, the verifier used by Microsoft's Static Driver
+Verifier and evaluate its performance on hard Windows device driver
+benchmarks.
 
-TBD
+presented by **Prantik Chatterjee**
+
+### TBD (6:30am PDT)
+
+presented by **Bernhard Kragl**
+
+### A Guided Tour of a Static Analyzer for Data Science Software (7:00am PDT)
+
+Nowadays, data science software and notably machine learning plays an increasingly important role in our daily lives. It thus becomes of paramount importance to have effective verification tools available to prove its correctness and reliability.
+
+In this talk we will take you sightseeing through the architecture of Lyra, a static analyzer for Python components of a data science pipeline. The main attractions will be the submodules expressly designed to be stand-alone and reusable by other verification tools as well as the abstract domains designed to address new and challenging research problems that arise from targeting data science software.
+
+presented by **Caterina Urban**
+
+### Machine Learning based Program Analysis (7:30am PDT)
+
+Program analysis has been widely adopted in both academia and industry to enhance the correctness, safety, and performance of programs. However, the effectiveness and scalability of existing program analyzers are often limited by suboptimal, manual design decisions. This talk will discuss two new program analysis techniques based on machine learning. First, I will introduce Lait, a learning based approximate transformer that removes redundant computation from static numerical analysis traces. Second, I will present ILF, a novel fuzzing method that learns to generate test inputs from symbolic execution traces. These techniques integrate domain knowledge in program reasoning for designing the learning algorithms, enabling fast and effective program analyses.
+
+presented by **Jingxuan He**
+
+### TBD (8:00am PDT)
+
+presented by **Alex Summers**
 
 ## Registration
 
