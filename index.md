@@ -7,7 +7,7 @@ As further discussion topics, we will solicit talks and feedback on benchmarking
 
 ## Location
 
-Online
+The [#workshop-democratize-sv](https://cav2020.slack.com/archives/C016WTZTBGV) channel of CAV 2020 on Slack.
 
 ## Program
 
