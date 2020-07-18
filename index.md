@@ -55,7 +55,11 @@ Program analysis has been widely adopted in both academia and industry to enhanc
 
 presented by **Jingxuan He**
 
-### TBD (8:00am PDT)
+### Prusti – Deductive Verification for Rust (8:00am PDT)
+
+Producing reliable systems software is a major challenge, plagued by the ubiquitous problems of shared mutable state, pointer aliasing, dynamic memory management, and subtle concurrency issues such as race conditions; even expert programmers struggle to tame the wide variety of reasons why their programs may not behave as they intended. Formal verification offers potential solutions to many of these problems, but typically at a very high price: the mathematical techniques employed are highly-complex, and difficult for even expert researchers to understand and apply. The relatively-new Rust programming language is designed to help with the former problem: a powerful ownership type system requires programmers to specify and restrict their discipline for referencing heap locations, providing in return the strong guarantee (almost; we’ll discuss this..) that code type-checked by this system will be free from dangling pointers, unexpected aliasing, race conditions and the like. While this rules out a number of common errors, the question of whether a program behaves as intended remains.
+ 
+In this talk I’ll give an introduction to the Prusti project, which leverages Rust’s type system and compiler analyses for formal verification of Rust code. By combining the rich information available about a type-checked Rust program with separate user-specification of intended behaviour, Prusti enables a user to verify functional correctness of their code without interacting with a complex program logic; in particular, specifications and all interactions with our implemented tool are at the level of abstraction of Rust expressions. Prusti is built upon the Viper intermediate verification language (designed to provide reusable infrastructure for implementing a wide variety of modern proof techniques), and I’ll give demos of both projects during the talk.
 
 presented by **Alex Summers**
 
