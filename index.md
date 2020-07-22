@@ -26,7 +26,8 @@ is built on top of CORRAL, the verifier used by Microsoft's Static Driver
 Verifier and evaluate its performance on hard Windows device driver
 benchmarks.
 
-presented by **Prantik Chatterjee**
+presented by **Prantik Chatterjee**  
+[watch on YouTube](https://youtu.be/f8Cjpt-rzxE)
 
 ### CIVL-ized Concurrent Programs (6:45am PDT)
 
@@ -41,7 +42,8 @@ reduction, and linear permissions.
 In this talk, we will report on CIVL from the perspective of verification
 features, programmer interaction, and the implementation atop Boogie.
 
-presented by **Bernhard Kragl**
+presented by **Bernhard Kragl**  
+[watch on YouTube](https://youtu.be/f8Cjpt-rzxE?t=2081)
 
 ### A Guided Tour of a Static Analyzer for Data Science Software (7:15am PDT)
 
@@ -49,13 +51,15 @@ Nowadays, data science software and notably machine learning plays an increasing
 
 In this talk we will take you sightseeing through the architecture of Lyra, a static analyzer for Python components of a data science pipeline. The main attractions will be the submodules expressly designed to be stand-alone and reusable by other verification tools as well as the abstract domains designed to address new and challenging research problems that arise from targeting data science software.
 
-presented by **Caterina Urban**
+presented by **Caterina Urban**  
+[watch on YouTube](https://youtu.be/f8Cjpt-rzxE?t=4374)
 
 ### Machine Learning based Program Analysis (7:45am PDT)
 
 Program analysis has been widely adopted in both academia and industry to enhance the correctness, safety, and performance of programs. However, the effectiveness and scalability of existing program analyzers are often limited by suboptimal, manual design decisions. This talk will discuss two new program analysis techniques based on machine learning. First, I will introduce Lait, a learning based approximate transformer that removes redundant computation from static numerical analysis traces. Second, I will present ILF, a novel fuzzing method that learns to generate test inputs from symbolic execution traces. These techniques integrate domain knowledge in program reasoning for designing the learning algorithms, enabling fast and effective program analyses.
 
-presented by **Jingxuan He**
+presented by **Jingxuan He**  
+[watch on YouTube](https://youtu.be/f8Cjpt-rzxE?t=6720)
 
 ### Prusti – Deductive Verification for Rust (8:15am PDT)
 
@@ -63,7 +67,8 @@ Producing reliable systems software is a major challenge, plagued by the ubiquit
  
 In this talk I’ll give an introduction to the Prusti project, which leverages Rust’s type system and compiler analyses for formal verification of Rust code. By combining the rich information available about a type-checked Rust program with separate user-specification of intended behaviour, Prusti enables a user to verify functional correctness of their code without interacting with a complex program logic; in particular, specifications and all interactions with our implemented tool are at the level of abstraction of Rust expressions. Prusti is built upon the Viper intermediate verification language (designed to provide reusable infrastructure for implementing a wide variety of modern proof techniques), and I’ll give demos of both projects during the talk.
 
-presented by **Alex Summers**
+presented by **Alex Summers**  
+[watch on YouTube](https://youtu.be/f8Cjpt-rzxE?t=9743)
 
 ## Registration
 
